@@ -67,7 +67,7 @@ def main():
         )
     )
 
-    # Iniciando threads
+    # Iniciando threadsd
     thread01.start()
     thread02.start()
     thread03.start()
