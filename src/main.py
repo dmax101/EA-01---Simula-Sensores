@@ -6,7 +6,7 @@ from pymongo.message import query
 from dbconnector import DbConnector
 from sensors import Sensors
 
-# Dados de conexão
+# Dados de conexão saasd
 cnn = {
     'host': 'DMAX101Sofia.local',
     'port': 27017,
@@ -67,7 +67,7 @@ def main():
         )
     )
 
-    # Iniciando threadsd
+    # Iniciando threads
     thread01.start()
     thread02.start()
     thread03.start()
